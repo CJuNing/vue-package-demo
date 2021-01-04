@@ -28,7 +28,7 @@ for FILE in `git diff --name-only --cached`; do
     # fi
     # grep -n 'debugger\|alert(' $FILE rrravs
     # grep 'debugger\|alert(' $FILE 2>&1 >/dev/null
-    grep -n 'debugger\|alert(' $FILE --include *.{js,vue} 2>1 
+    grep -n 'debugger\|alert(' $FILE --include *.{js,vue} 2>&1 >/dev/null
     if [ $? -eq 0 ]; then
         echo "${red}pre-commit: 文件" $FILE "中包含 非法关键字 ,请删除后重试!${reset}"
         result=1
