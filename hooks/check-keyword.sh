@@ -7,6 +7,7 @@ reset=`tput sgr0`
 
 echo  "${green}start checking keyword${reset}"
 
+variable=0
 
 for FILE in `git diff --name-only --cached`; do
 
@@ -17,8 +18,8 @@ for FILE in `git diff --name-only --cached`; do
     # grep 'TODO:\|debugger\|console.log\|alert(' $FILE 2>&1 >/dev/null
     grep 'debugger' $FILE 2>&1 >/dev/null
     if [ $? -eq 0 ]; then
-        echo $FILE '提交代码中包含"debugger",请删除后重试!'
-        exit 1
+        echo $FILE '中包含"debugger",请删除后重试!'
+        variable=1
     fi
     
 done

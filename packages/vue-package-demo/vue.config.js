@@ -2,6 +2,8 @@ var path = require('path')
 
 const NODE_ENV = process.env.NODE_ENV;
 
+debugger;
+
 module.exports = {
     // 修改打包入口
     entry: NODE_ENV == 'development' ? './src/main.js' : './packages/switch/index.js',
