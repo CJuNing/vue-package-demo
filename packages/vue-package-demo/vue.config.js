@@ -6,7 +6,6 @@ alert(1);
 debugger;
 
 
-
 module.exports = {
     // 修改打包入口
     entry: NODE_ENV == 'development' ? './src/main.js' : './packages/switch/index.js',
