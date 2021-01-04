@@ -6,7 +6,6 @@ green=`tput setaf 2`
 cyan=`tput setaf 6`
 reset=`tput sgr0`
 yellow=`tput setaf 3`
-# echo "${red}red text ${green}green text${reset}"
 
 echo  "${green}pre-commit: 开始检查非法关键字${reset}"
 
