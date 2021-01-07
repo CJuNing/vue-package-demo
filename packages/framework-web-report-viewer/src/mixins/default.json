@@ -1,0 +1,748 @@
+{
+  "dp": {
+    "report": {
+      "float_uniqueFlag": {
+        "name": "是否唯一",
+        "defaultValue": "0",
+        "ct": "string"
+      },
+      "fill_canFill": {
+        "name": "是否可填报",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "cellValue": {
+        "name": "单元格值",
+        "defaultValue": null
+      },
+      "align": {
+        "name": "水平对齐",
+        "defaultValue": 0,
+        "ct": "short"
+      },
+      "borderRightStyle": {
+        "name": "右边框样式",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "borderTopColor": {
+        "name": "上边框颜色",
+        "defaultValue": "#ffffff",
+        "ct": "string"
+      },
+      "borderTopStyle": {
+        "name": "上边框样式",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "originalName": {
+        "name": "原始名称",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "fontFamily": {
+        "name": "字体样式",
+        "defaultValue": "宋体",
+        "ct": "string"
+      },
+      "borderLeftWidth": {
+        "name": "左边框宽度",
+        "defaultValue": 0,
+        "ct": "float"
+      },
+      "rowspan": {
+        "name": "跨行数",
+        "defaultValue": 1,
+        "ct": "int"
+      },
+      "borderRightColor": {
+        "name": "右边框颜色",
+        "defaultValue": "#ffffff",
+        "ct": "string"
+      },
+      "borderBottomStyle": {
+        "name": "下边框样式",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "borderBottomWidth": {
+        "name": "下边框宽度",
+        "defaultValue": 0,
+        "ct": "float"
+      },
+      "locked": {
+        "name": "锁定",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "height": {
+        "name": "行高",
+        "defaultValue": 20,
+        "ct": "float"
+      },
+      "verticalAlign": {
+        "name": "垂直对齐",
+        "defaultValue": 1,
+        "ct": "short"
+      },
+      "float_rowspan": {
+        "name": "浮动区域跨行数",
+        "defaultValue": null,
+        "ct": "int"
+      },
+      "version": {
+        "name": "版本",
+        "defaultValue": "20151010",
+        "ct": "string"
+      },
+      "fontBold": {
+        "name": "加粗",
+        "defaultValue": 0,
+        "ct": "short"
+      },
+      "float_colspan": {
+        "name": "浮动区域跨列数",
+        "defaultValue": null,
+        "ct": "int"
+      },
+      "float_gatherType": {
+        "name": "汇总方式",
+        "defaultValue": "0",
+        "ct": "string"
+      },
+      "name": {
+        "name": "名称",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "fontSize": {
+        "name": "字体大小",
+        "defaultValue": 12,
+        "ct": "float"
+      },
+      "backgroundRepeat": {
+        "name": "背景图片重复与否",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "extendType": {
+        "name": "扩展方向",
+        "defaultValue": 1,
+        "ct": "int"
+      },
+      "fontUnderline": {
+        "name": "下划线",
+        "defaultValue": 0,
+        "ct": "short"
+      },
+      "hidden": {
+        "name": "隐藏",
+        "defaultValue": 0,
+        "ct": "short"
+      },
+      "float_uniqueFloatCodeList": {
+        "name": "唯一标示列表",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "backgroundImage": {
+        "name": "背景图片",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "float_datasource": {
+        "name": "浮动数据来源",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "float_level": {
+        "name": "浮动层级",
+        "defaultValue": null,
+        "ct": "int"
+      },
+      "textIndent": {
+        "name": "缩进",
+        "defaultValue": 0,
+        "ct": "float"
+      },
+      "borderBottomColor": {
+        "name": "下边框颜色",
+        "defaultValue": "#ffffff",
+        "ct": "string"
+      },
+      "colspan": {
+        "name": "跨列数",
+        "defaultValue": 1,
+        "ct": "int"
+      },
+      "fill_dataType": {
+        "name": "数据类型",
+        "defaultValue": 1,
+        "ct": "int"
+      },
+      "textControl": {
+        "name": "文本显示方式",
+        "defaultValue": 1,
+        "ct": "short"
+      },
+      "borderRightWidth": {
+        "name": "右边框宽度",
+        "defaultValue": 0,
+        "ct": "float"
+      },
+      "borderTopWidth": {
+        "name": "上边框宽度",
+        "defaultValue": 0,
+        "ct": "float"
+      },
+      "float_type": {
+        "name": "浮动方向",
+        "defaultValue": null,
+        "ct": "int"
+      },
+      "float_uuid": {
+        "name": "浮动唯一标示",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "backgroundPosition": {
+        "name": "背景图片位置",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "borderLeftColor": {
+        "name": "左边框颜色",
+        "defaultValue": "#ffffff",
+        "ct": "string"
+      },
+      "fill_fillType": {
+        "name": "填报类型",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "backgroundColor": {
+        "name": "背景色",
+        "defaultValue": "#fff",
+        "ct": "string"
+      },
+      "fill_urlValue": {
+        "name": "数据来源",
+        "defaultValue": null,
+        "ct": "string"
+      },
+      "borderLeftStyle": {
+        "name": "左边框样式",
+        "defaultValue": 0,
+        "ct": "int"
+      },
+      "cellType": {
+        "name": "单元格类型",
+        "defaultValue": null,
+        "ct": "int"
+      },
+      "width": {
+        "name": "列宽",
+        "defaultValue": 100,
+        "ct": "float"
+      },
+      "fontItalic": {
+        "name": "斜体",
+        "defaultValue": 0,
+        "ct": "short"
+      },
+      "fontColor": {
+        "name": "字体颜色",
+        "defaultValue": "#000",
+        "ct": "string"
+      }
+    }
+  },
+  "p": {},
+  "e": {},
+  "sheet": {
+    "p": {
+      "paramList": "",
+      "_ct_paramList": "string",
+      "expreList": "",
+      "_ct_expreList": "string"
+    },
+    "e": {},
+    "cols": [
+      {
+        "p": {
+          "name": "A",
+          "originalName": "A"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "B",
+          "originalName": "B"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "C",
+          "originalName": "C"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "D",
+          "originalName": "D"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "E",
+          "originalName": "E"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "F",
+          "originalName": "F"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "G",
+          "originalName": "G"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "H",
+          "originalName": "H"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "I",
+          "originalName": "I"
+        },
+        "e": {}
+      },
+      {
+        "p": {
+          "name": "J",
+          "originalName": "J"
+        },
+        "e": {}
+      }
+    ],
+    "rows": [
+      {
+        "p": {
+          "name": "1",
+          "originalName": "1"
+        },
+        "e": {},
+        "cells": [
+          {
+            "p": {
+              "name": "A1",
+              "originalName": "A1",
+              "rowspan": 3
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "B1",
+              "originalName": "B1",
+              "rowspan": 3
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "originalName": "C1",
+              "name": "C1"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "D1",
+              "originalName": "D1"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "originalName": "E1",
+              "name": "E1"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "F1",
+              "originalName": "F1",
+              "rowspan": 3
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "G1",
+              "originalName": "G1",
+              "rowspan": 3
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "H1",
+              "originalName": "H1",
+              "rowspan": 3
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "I1",
+              "originalName": "I1",
+              "rowspan": 3
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "J1",
+              "originalName": "J1",
+              "rowspan": 3
+            },
+            "e": {}
+          }
+        ]
+      },
+      {
+        "p": {
+          "name": "2",
+          "originalName": "2"
+        },
+        "e": {},
+        "cells": [
+          {
+            "p": {
+              "name": "A2",
+              "originalName": "A2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "B2",
+              "originalName": "B2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "C2",
+              "originalName": "C2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "D2",
+              "originalName": "D2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "E2",
+              "originalName": "E2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "F2",
+              "originalName": "F2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "G2",
+              "originalName": "G2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "H2",
+              "originalName": "H2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "I2",
+              "originalName": "I2"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "J2",
+              "originalName": "J2"
+            },
+            "e": {}
+          }
+        ]
+      },
+      {
+        "p": {
+          "name": "3",
+          "originalName": "3"
+        },
+        "e": {},
+        "cells": [
+          {
+            "p": {
+              "name": "A3",
+              "originalName": "A3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "B3",
+              "originalName": "B3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "C3",
+              "originalName": "C3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "D3",
+              "originalName": "D3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "E3",
+              "originalName": "E3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "F3",
+              "originalName": "F3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "G3",
+              "originalName": "G3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "H3",
+              "originalName": "H3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "I3",
+              "originalName": "I3"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "J3",
+              "originalName": "J3"
+            },
+            "e": {}
+          }
+        ]
+      },
+      {
+        "p": {
+          "name": "4",
+          "originalName": "4"
+        },
+        "e": {},
+        "cells": [
+          {
+            "p": {
+              "name": "A4",
+              "originalName": "A4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "B4",
+              "originalName": "B4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "C4",
+              "originalName": "C4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "D4",
+              "originalName": "D4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "E4",
+              "originalName": "E4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "F4",
+              "originalName": "F4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "G4",
+              "originalName": "G4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "H4",
+              "originalName": "H4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "I4",
+              "originalName": "I4"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "J4",
+              "originalName": "J4"
+            },
+            "e": {}
+          }
+        ]
+      },
+      {
+        "p": {
+          "name": "5",
+          "originalName": "5"
+        },
+        "e": {},
+        "cells": [
+          {
+            "p": {
+              "name": "A5",
+              "originalName": "A5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "B5",
+              "originalName": "B5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "C5",
+              "originalName": "C5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "D5",
+              "originalName": "D5",
+              "fill_canFill": 1
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "E5",
+              "originalName": "E5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "F5",
+              "originalName": "F5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "G5",
+              "originalName": "G5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "H5",
+              "originalName": "H5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "I5",
+              "originalName": "I5"
+            },
+            "e": {}
+          },
+          {
+            "p": {
+              "name": "J5",
+              "originalName": "J5"
+            },
+            "e": {}
+          }
+        ]
+      }
+    ]
+  }
+}

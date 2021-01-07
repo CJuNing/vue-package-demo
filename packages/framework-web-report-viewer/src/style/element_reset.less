@@ -1,0 +1,52 @@
+.el-header {
+    background-color: #B3C0D1;
+    color: #333;
+    line-height: 60px;
+  }
+/* .el-menu{
+    border-right: 1px solid @menuBg;
+} */
+
+
+
+.el-aside {
+    color: #cacaca;
+    background-color: @menuBg;
+  }
+.el-main{
+  padding: 0;
+}
+/* .el-submenu .el-menu-item {
+    background-color: rgb(189, 79, 79)!important; 
+}
+.el-submenu .el-submenu__title{
+  background-color:  rgb(189, 79, 79)!important;
+} */
+
+// menu hover
+.submenu-title-noDropdown,
+.el-submenu__title {
+  &:hover {
+    background-color:@menuHover !important;
+  }
+}
+.submenu-title-noDropdown,
+    .el-submenu__title {
+      &:hover {
+        background-color: @menuHover !important;
+      }
+    }
+
+    .is-active>.el-submenu__title {
+      color:@subMenuActiveText !important;
+    }
+
+    & .nest-menu .el-submenu>.el-submenu__title,
+    & .el-submenu .el-menu-item {
+      width: @sideBarWidth !important;
+      background-color: @subMenuBg !important;
+
+      &:hover {
+        background-color: @subMenuHover !important;
+      }
+    }
