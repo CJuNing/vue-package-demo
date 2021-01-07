@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "fusion-web-report-viewer": "^4.0.0",
     "vue": "^2.6.11",
     "vue-package-demo": "^0.1.0",
     "vue-router": "^3.2.0"

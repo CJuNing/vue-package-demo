@@ -23,6 +23,6 @@ module.exports = {
 
     // 用于控制打包时候是否将css代码单独打包成css文件，默认值为true，独立打包css代码 https://cli.vuejs.org/guide/build-targets.html
     css: {
-        extract: false
+        // extract: false
     }
 }
